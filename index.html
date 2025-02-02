@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Creative Agency</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Dark Mode Toggle -->
+    <button class="theme-toggle">
+      <i class="fas fa-moon"></i>
+      <i class="fas fa-sun"></i>
+    </button>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="logo">DigiCreative</a>
+        <ul class="nav-links">
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#services">Layanan</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#team">Tim</a></li>
+        </ul>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Transformasi Digital Bisnis Anda</h1>
+          <p>Solusi kreatif untuk pertumbuhan bisnis digital</p>
+          <a href="#contact" class="cta-btn">Mulai Sekarang</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <h2 class="section-title">Layanan Kami</h2>
+        <div class="services-grid">
+          <!-- Service items akan diisi oleh JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="portfolio-filter">
+          <button class="filter-btn active" data-filter="all">Semua</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="mobile">Mobile</button>
+          <button class="filter-btn" data-filter="design">Desain</button>
+        </div>
+        <div class="portfolio-grid">
+          <!-- Portfolio items akan diisi oleh JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <h3>150+</h3>
+            <p>Proyek Selesai</p>
+          </div>
+          <div class="stat-item">
+            <h3>98%</h3>
+            <p>Kepuasan Klien</p>
+          </div>
+          <div class="stat-item">
+            <h3>50+</h3>
+            <p>Klien Worldwide</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <!-- <section id="team" class="team">
+      <div class="container">
+        <h2 class="section-title">Tim Kami</h2>
+        <div class="team-grid">
+          <!-- Team members akan diisi oleh JavaScript -->
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Testimonial Section Baru -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <h2 class="section-title">Testimoni Klien</h2>
+        <div class="testimonial-slider">
+          <div class="testimonial-track">
+            <!-- Testimonial items diisi JS -->
+          </div>
+          <div class="slider-controls">
+            <button class="prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section (diupdate) -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Hubungi Kami</h2>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Jln. Digital Innovation No. 123</p>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <p>+62 812 3456 7890</p>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <p>hello@digicreative.id</p>
+            </div>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <input
+                type="text"
+                id="name"
+                placeholder="Nama Lengkap"
+                required />
+              <span class="error-message"></span>
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                placeholder="Alamat Email"
+                required />
+              <span class="error-message"></span>
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                rows="5"
+                placeholder="Pesan Anda"
+                required></textarea>
+              <div class="char-counter"><span>0</span>/500</div>
+            </div>
+            <button type="submit" class="cta-btn">
+              Kirim Pesan <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h4>DigiCreative</h4>
+            <p>Jln. Digital Innovation No. 123</p>
+            <p>hello@digicreative.id</p>
+            <p>+62 812 3456 7890</p>
+          </div>
+          <div class="footer-col">
+            <h4>Tautan Cepat</h4>
+            <ul>
+              <li><a href="#services">Layanan</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#team">Tim</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Sosial Media</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
